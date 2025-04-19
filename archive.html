@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang='en'>
+
+<html lang="en">
 <head>
-  <meta charset='UTF-8'>
-  <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
-  <title>Archive</title>
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Blog Archive</title>
+<style>
     html, body {
       margin: 0;
       padding: 0;
@@ -51,23 +52,35 @@
       box-shadow: 4px 4px 8px rgba(0,0,0,0.3);
       font-family: "Courier New", monospace;
     }
+    .content img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 1rem auto;
+      border: 2px inset #c0a060;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    }
     .post-meta {
       font-size: 0.85rem;
       color: #444;
       margin-top: -1rem;
       margin-bottom: 1.5rem;
     }
-    .content a {
-      color: #234d23;
-    }
   </style>
 </head>
 <body>
-  <div class='page'>
-    <div class='nav-buttons'><a href='/blog.html'>← Back</a></div>
-    <div class='content'>
-      <h2>By Date</h2><p><a href='climbing_log.html'>Climbing Log</a> — 2025-04-17</p><hr><h2>By Tag</h2><h3>Climbing</h3><p><a href='climbing_log.html'>Climbing Log</a> — 2025-04-17</p><h3>Logs</h3><p><a href='climbing_log.html'>Climbing Log</a> — 2025-04-17</p>
-    </div>
-  </div>
+<div class="page">
+<div class="nav-buttons">
+<a href="javascript:history.back()">← Back</a>
+</div>
+<div class="content"><section class="archive">
+<h2>All Posts</h2>
+<ul class="archive-list"><li class="year"><h3>2025</h3><ul><li class="month"><h4>April</h4><ul><li class="post"><span class="date">19</span> <a href="posts/2025-04-18-bmv2-test-post.html">BMv2 Test Post</a></li><li class="post"><span class="date">19</span> <a href="posts/2025-04-19-test-post-2.html">Test Post 2</a></li></ul></li></ul></li></ul></section>
+<section class="tags">
+<h2>Browse by Tag</h2>
+<ul class="tag-list"></ul></section>
+<section class="tags-section">
+</section></div>
+</div>
 </body>
 </html>
