@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html lang='en'>
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Blog</title>
-<style>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+  <title>Blog</title>
+  <style>
     html, body {
       margin: 0;
       padding: 0;
@@ -52,50 +51,47 @@
       box-shadow: 4px 4px 8px rgba(0,0,0,0.3);
       font-family: "Courier New", monospace;
     }
-    .content img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-      margin: 1rem auto;
-      border: 2px inset #c0a060;
-      box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
-    }
     .post-meta {
       font-size: 0.85rem;
       color: #444;
       margin-top: -1rem;
       margin-bottom: 1.5rem;
     }
+    .content a {
+      color: #234d23;
+    }
+    .featured-image {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 1rem;
+      border: 1px solid #c0a060;
+    }
   </style>
 </head>
 <body>
-<div class="page">
-<div class="nav-buttons">
-<a href="javascript:history.back()">← Back</a>
-</div>
-<div class="content"><section class="blog-posts">
-<h2>Recent Posts</h2>
-<article class="post">
-    <h3><a href="posts/2025-04-20-3wr3r3r.html">3wr3r3r</a></h3>
-    <div class="post-date">April 20, 2025</div>
-    <div class="post-tags">Tags: <a href="archive.html#tag-test">Test</a></div>
-</article>
-<article class="post">
-    <h3><a href="posts/2025-04-20-testing.html">Testing</a></h3>
-    <div class="post-date">April 20, 2025</div>
-    <div class="post-tags">Tags: <a href="archive.html#tag-test">Test</a></div>
-</article>
-<article class="post">
-    <h3><a href="posts/2025-04-18-bmv2-test-post.html">BMv2 Test Post</a></h3>
-    <div class="post-date">April 19, 2025</div>
-    <div class="post-tags"></div>
-</article>
-<article class="post">
-    <h3><a href="posts/2025-04-19-test-post-2.html">Test Post 2</a></h3>
-    <div class="post-date">April 19, 2025</div>
-    <div class="post-tags"></div>
-</article>
-</section></div>
-</div>
+  <div class='page'>
+    <div class='nav-buttons'>
+      <a href='/index.html'>← Back to Home Page</a>
+      <a href='/archive.html'>📁 Archive</a>
+    </div>
+    <div class='content'>
+<h2><a href='posts/2025-04-20-3wr3r3r.html'>3wr3r3r</a></h2>
+<div class='post-meta'>2025-04-20 | Tags: Test</div>
+<img src='posts/images/mechalkingup.jpg' alt='3wr3r3r' class='featured-image'>
+<p>wfwf32</p>
+<hr><h2><a href='posts/2025-04-20-testing.html'>Testing</a></h2>
+<div class='post-meta'>2025-04-20 | Tags: Test</div>
+
+<p></p>
+<hr><h2><a href='posts/2025-04-18-bmv2-test-post.html'>BMv2 Test Post</a></h2>
+<div class='post-meta'>2025-04-19 | Tags: </div>
+<img src='posts/images/mechalkingup.jpg' alt='BMv2 Test Post' class='featured-image'>
+<p></p>
+<hr><h2><a href='posts/2025-04-19-test-post-2.html'>Test Post 2</a></h2>
+<div class='post-meta'>2025-04-19 | Tags: </div>
+<img src='posts/images/meclimbing.jpg' alt='Test Post 2' class='featured-image'>
+<p></p>
+    </div>
+  </div>
 </body>
 </html>
